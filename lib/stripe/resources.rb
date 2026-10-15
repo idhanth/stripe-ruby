@@ -1491,6 +1491,10 @@ module Stripe
     autoload :V2SignalsAccountEvaluationCompleteEvent, "stripe/events/v2_signals_account_evaluation_complete_event"
     autoload :V2SignalsAccountEvaluationCompleteEventNotification,
              "stripe/events/v2_signals_account_evaluation_complete_event"
+    autoload :V2SignalsAccountSignalCustomerRiskReadyEvent,
+             "stripe/events/v2_signals_account_signal_customer_risk_ready_event"
+    autoload :V2SignalsAccountSignalCustomerRiskReadyEventNotification,
+             "stripe/events/v2_signals_account_signal_customer_risk_ready_event"
     autoload :V2SignalsAccountSignalFraudulentMerchantReadyEvent,
              "stripe/events/v2_signals_account_signal_fraudulent_merchant_ready_event"
     autoload :V2SignalsAccountSignalFraudulentMerchantReadyEventNotification,
@@ -2625,6 +2629,7 @@ module Stripe
     stripe/events/v2_reporting_report_run_succeeded_event
     stripe/events/v2_reporting_report_run_updated_event
     stripe/events/v2_signals_account_evaluation_complete_event
+    stripe/events/v2_signals_account_signal_customer_risk_ready_event
     stripe/events/v2_signals_account_signal_fraudulent_merchant_ready_event
     stripe/events/v2_signals_account_signal_fraudulent_website_ready_event
     stripe/events/v2_signals_account_signal_merchant_delinquency_ready_event

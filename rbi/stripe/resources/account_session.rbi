@@ -1113,11 +1113,11 @@ module Stripe
       # Attribute for field tax_settings
       sig { returns(TaxSettings) }
       def tax_settings; end
-      # Configuration for the [Terminal hardware orders](/connect/supported-embedded-components/terminal-hardware-orders/) embedded component.
-      sig { returns(T.nilable(TerminalHardwareOrders)) }
+      # Attribute for field terminal_hardware_orders
+      sig { returns(TerminalHardwareOrders) }
       def terminal_hardware_orders; end
-      # Configuration for the [Terminal hardware shop](/connect/supported-embedded-components/terminal-hardware-shop/) embedded component.
-      sig { returns(T.nilable(TerminalHardwareShop)) }
+      # Attribute for field terminal_hardware_shop
+      sig { returns(TerminalHardwareShop) }
       def terminal_hardware_shop; end
       def self.inner_class_types
         @inner_class_types = {

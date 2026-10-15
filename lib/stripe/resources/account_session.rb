@@ -1106,9 +1106,9 @@ module Stripe
       attr_reader :tax_registrations
       # Attribute for field tax_settings
       attr_reader :tax_settings
-      # Configuration for the [Terminal hardware orders](/connect/supported-embedded-components/terminal-hardware-orders/) embedded component.
+      # Attribute for field terminal_hardware_orders
       attr_reader :terminal_hardware_orders
-      # Configuration for the [Terminal hardware shop](/connect/supported-embedded-components/terminal-hardware-shop/) embedded component.
+      # Attribute for field terminal_hardware_shop
       attr_reader :terminal_hardware_shop
 
       def self.inner_class_types
